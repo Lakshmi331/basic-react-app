@@ -2,14 +2,16 @@ import './App.css';
 
 function App() {
   let name="Lakshmi"
-  var num = "9876543210"
+  let num = "9876543210"
+  let bool = true;
+
   return (
     <div className="App">
       <h1>Hello world!</h1>
-      <p>name</p>
-      <p>{name}</p>
-      <p>numbers</p>
-      <p>{num}</p>
+      <h1>{name}</h1>
+      {
+      bool ? <h3>{num}</h3> : <h3>No Number</h3>
+      }
     </div>
   );
 }
