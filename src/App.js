@@ -8,7 +8,7 @@ function App() {
       <h1>Hello world!</h1>
       <p>name</p>
       <p>{name}</p>
-      <p>number</p>
+      <p>numbers</p>
       <p>{num}</p>
     </div>
   );
