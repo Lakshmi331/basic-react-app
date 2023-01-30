@@ -3,7 +3,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import UserDetails from './UserDetails'
 
-function basic(props) {
+function Basic(props) {
   let name="Lakshmi"
   let num = "9876543210"
   let bool = true;
@@ -20,7 +20,7 @@ function basic(props) {
   return (
     <div>
     <div className="App">
-      <h1 className={blueColor ? "header" : safeColor ? "safe" : "error"}>Heading</h1>
+      <h1 className={blueColor ? "header" : safeColor ? "safe" : "error"}>Heading basic</h1>
       <h1>{name}</h1>
       {
       bool ? <h3>{num}</h3> : <h3>No Number</h3>
@@ -43,9 +43,9 @@ function basic(props) {
   )
 }
 
-basic.propTypes = {
+Basic.propTypes = {
 
 }
 
-export default basic
+export default Basic
 

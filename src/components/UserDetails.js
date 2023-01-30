@@ -4,8 +4,7 @@ import PropTypes from 'prop-types'
 function UserDetails(props) {
   return (
     <div>
-      <h1>{props.data.name}</h1>
-      <h1>{props.data.role}</h1>  
+      <h1>User Details</h1>
     </div>
   )
 }
